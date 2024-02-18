@@ -1,0 +1,16 @@
+.container{
+    float: inline-start;
+}
+
+.block{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+div.block > img{
+    max-height: 30%;
+    max-width: 30%;
+}

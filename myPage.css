@@ -14,3 +14,7 @@ div.block > img{
     max-height: 30%;
     max-width: 30%;
 }
+
+ul li{
+    font-size: x-large;
+}

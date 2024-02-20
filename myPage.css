@@ -10,11 +10,58 @@
     object-fit: contain;
 }
 
-div.block > img{
-    max-height: 30%;
-    max-width: 30%;
+.Aside{
+    width:100%;
+}
+.Aside > img{
+    float: right;
+    height: 32%;
+    width: 50%;
+}
+.container{
+    display:flex;
 }
 
+div.block::before{
+    content: "Go to my";
+    color:rgb(114, 6, 6)
+}
+div.block{
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 7%;
+}
+
+
+
+div.block:nth-child(3){
+    margin-left: 16%;
+}
+
+a:hover{
+    color: blue;
+}
+a{
+    color: #4595E5;
+}
 ul li{
     font-size: x-large;
+    
+}
+
+
+.PersonalInformation:nth-child(n+3) {
+    color:darkblue;
+}
+
+#Age, #YearOfStudying, #UsingProgrammingLanguages{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    color: #4595E5;
+}
+
+.block{
+   height: 200px;
+   width: 120px;
+  
 }

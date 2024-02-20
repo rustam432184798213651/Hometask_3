@@ -49,11 +49,6 @@ ul li{
     
 }
 
-
-.PersonalInformation:nth-child(n+3) {
-    color:darkblue;
-}
-
 #Age, #YearOfStudying, #UsingProgrammingLanguages{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: medium;
@@ -64,4 +59,12 @@ ul li{
    height: 200px;
    width: 120px;
   
+}
+
+.block{
+    margin-bottom: 3%;
+    height: 50%;
+    font-size: larger;
+    font-family:fantasy;
+    
 }
